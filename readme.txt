@@ -1,4 +1,4 @@
-=== Coupon Codes Renamed ===
+=== Coupon Text Rename For WooCommerce ===
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Plugin Name: Coupon Text Rename For WooCommerce 
