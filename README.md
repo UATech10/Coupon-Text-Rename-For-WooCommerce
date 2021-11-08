@@ -1,14 +1,5 @@
 Coupon Text Rename For WooCommerce
 --------------------
-License: GPLv3
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
-Plugin Name: Coupon Text Rename For WooCommerce 
-Description: This Simple Plugin is Designed To Rename Coupon Text For WooCommerce
-Version: 1.1
-Tested up to: 5.8.1
-Author: UATech10
-Author URI: https://github.com/UATech10
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
 License: GPL v3 or later
 [![License: GPL
 v3](https://camo.githubusercontent.com/400c4e52df43f6a0ab8a89b74b1a78d1a64da56a7848b9110c9d2991bb7c3105/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d47504c76332d626c75652e737667)](https://www.gnu.org/licenses/gpl-3.0)
@@ -25,3 +16,4 @@ settings](settings.png?raw=true "Coupon Codes Renamed Settings")
 Demo of renamed coupon code: ![Screenshot of coupon code renamed as
 offer code applied to
 cart](plugindemo.png?raw=true "Cart Page with renamed coupon code")
+ it's Tested Upto 5.8.1
