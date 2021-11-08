@@ -3,7 +3,7 @@
  * Plugin Name: Coupon Text Rename For WooCommerce 
  * Description: This Simple Plugin is Designed To Rename Coupon Text For WooCommerce
  * Version: 1.1
- * Tested up to: 5.7
+ * Tested up to: 5.8.1
  * Author: UATech10
  * Author URI: https://github.com/UATech10
  * License: GPL v3 or later
@@ -103,7 +103,7 @@ function coupon_code_add_section( $sections ) {
 
 function coupon_code_all_settings( $settings, $current_section ) {
 
-	if ( $current_section == 'coupon-codes' ) {
+	if ( $current_section == 'coupon-text-rename' ) {
 		$settings_coupon_codes = array();
 		// Add Title to the Settings
 		$settings_coupon_codes[] = array( 'name' => __( 'Coupon Text Rename Settings', 'text-domain' ), 'type' => 'title', 'desc' => __( 'The following options are used to configure the labels, buttons and messages for coupon codes.', 'text-domain' ), 'id' => 'coupon_code_text' );
