@@ -94,7 +94,7 @@ function rename_coupon_label($err, $err_code=null, $something=null){
 
 function coupon_code_add_section( $sections ) {
 	
-	$sections['coupon-codes'] = __( 'Coupon Codes', 'text-domain' );
+	$sections['coupon-codes'] = __( 'Coupon Text Rename', 'text-domain' );
 	return $sections;
 	
 }
@@ -106,11 +106,11 @@ function coupon_code_all_settings( $settings, $current_section ) {
 	if ( $current_section == 'coupon-codes' ) {
 		$settings_coupon_codes = array();
 		// Add Title to the Settings
-		$settings_coupon_codes[] = array( 'name' => __( 'Coupon Code Settings', 'text-domain' ), 'type' => 'title', 'desc' => __( 'The following options are used to configure the labels, buttons and messages for coupon codes.', 'text-domain' ), 'id' => 'coupon_code_text' );
+		$settings_coupon_codes[] = array( 'name' => __( 'Coupon Text Rename Settings', 'text-domain' ), 'type' => 'title', 'desc' => __( 'The following options are used to configure the labels, buttons and messages for coupon codes.', 'text-domain' ), 'id' => 'coupon_code_text' );
 	
 		// Add second text field option
 		$settings_coupon_codes[] = array(
-			'name'     => __( 'Coupon Code Text', 'text-domain' ),
+			'name'     => __( 'Coupon Code Text Rename', 'text-domain' ),
 			'desc_tip' => __( "This will replace all occurences of 'coupon code' throughout the site.", 'text-domain' ),
 			'id'       => 'coupon_code_text',
 			'type'     => 'text',
