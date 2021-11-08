@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Coupon Text Rename For WooCommerce 
  * Description: This Simple Plugin is Designed To Rename Coupon Text For WooCommerce
- * Version: 1.1
+ * Version: 1.2
  * Tested up to: 5.8.1
  * Author: UATech10
  * Author URI: https://github.com/UATech10
